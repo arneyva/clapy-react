@@ -2,6 +2,7 @@
   height: 100%;
   font-family: sans-serif;
   background-color: #1e1e1e;
-  flex-basis: 100%;
-  overflow-y: auto;
+  /* flex-basis: 100%; */
+  flex-direction: column;
+  /* overflow-y: auto; */
 }

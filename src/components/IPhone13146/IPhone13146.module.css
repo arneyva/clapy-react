@@ -9,35 +9,48 @@
 }
 
 ._3_des_16RemovebgPreview3 {
-    transform-origin: top left;
+    /* transform-origin: top left;
     position: absolute;
     left: 198px;
     top: 205.4538px;
     width: 197.3155px;
     height: 205.455px;
     background-image:
-        /* webpackIgnore: true */
         url('assets/_3_des_16RemovebgPreview3.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     transform: matrix(-1, 0.0033, -0.0033, -1, 0, 0);
-    opacity: 0.5;
+    opacity: 0.5; */
+    transform-origin: top left;
+    position: absolute;
+    left: 362.2961px;
+    top: 388.9979px;
+    width: 361px;
+    height: 389px;
+    background-image:
+        /* webpackIgnore: true */
+        url('assets/_3_des_16RemovebgPreview2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: matrix(-1, 0.0033, -0.0033, -1, 0, 0);
+    opacity: 0.4;
 }
 
 ._3_des_16RemovebgPreview32 {
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 224px;
-    height: 224px;
+    width: 361px;
+    height: 389px;
     background-image:
         /* webpackIgnore: true */
-        url('assets/_3_des_16RemovebgPreview32.png');
+        url('assets/_3_des_16RemovebgPreview1.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.5;
+    opacity: 0.4;
 }
 
 .pegantin1 {
