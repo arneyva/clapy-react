@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Paprika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paprika&family=Parisienne&display=swap');
+
+.root {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    overflow: hidden;
+    // background-color: #f3f0ed;
+    &__weeding {
+        color: #4f1e08;
+        font-size: 20px;
+        font-family: Paprika, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+        'Liberation Sans', sans-serif;
+        margin-bottom: 30px;
+    }
+    &__ratih{
+        color: #000;
+        font-size: 50px;
+        font-family: Parisienne, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+            'Liberation Sans', sans-serif;
+            margin-bottom: 30px;
+    }
+    &__tanggal{
+        color: #4f1e08;
+    font-size: 18px;
+    font-family: Paprika, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+        'Liberation Sans', sans-serif;
+    }
+}
+._3_des_16RemovebgPreview2 {
+    transform-origin: top left;
+    position: absolute;
+    left: 362.2961px;
+    top: 388.9979px;
+    width: 361px;
+    height: 389px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: matrix(-1, 0.0033, -0.0033, -1, 0, 0);
+    opacity: 0.4;
+}
+
+._3_des_16RemovebgPreview1 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 361px;
+    height: 389px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.4;
+
+}

@@ -1,0 +1,75 @@
+.root {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    overflow: hidden;
+    &__weeding {
+        color: #4f1e08;
+        font-size: 28px;
+        width: 350px;
+        text-align: center;
+        font-family: Paprika, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+        'Liberation Sans', sans-serif;
+        margin-bottom: 30px;
+    }
+    &__namapengantin {
+        color: #000;
+        font-size: 24px;
+        font-family: Parisienne, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+            'Liberation Sans', sans-serif;
+    }
+    &__ortu {
+        color: #4f1e08;
+        font-size: 12px;
+        font-family: Paprika, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+            'Liberation Sans', sans-serif;
+    }
+    &__alamat {
+        color: #4f1e08;
+        font-size: 12px;
+        font-family: Orienta, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+            'Liberation Sans', sans-serif;
+    }
+}
+._3_des_16RemovebgPreview3 {
+    transform-origin: top left;
+    position: absolute;
+    left: 198px;
+    top: 205.4538px;
+    width: 197.3155px;
+    height: 205.455px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: matrix(-1, 0.0033, -0.0033, -1, 0, 0);
+    opacity: 0.4;
+}
+
+._3_des_16RemovebgPreview32 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 197.3155px;
+    height: 205.455px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.4;
+}
+.pegantin1 {
+    position: absolute;
+    left: calc(50% - 26px);
+    top: calc(50% - -8.5px);
+    width: 390px;
+    height: 421px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: translate(-50%, -50%);
+    opacity: 0.2;
+}
