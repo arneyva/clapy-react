@@ -1,4 +1,4 @@
-import { memo } from 'react';
+import { memo, useEffect, useState } from 'react';
 import type { FC } from 'react';
 
 import classes from './App.module.css';
@@ -17,9 +17,20 @@ interface Props {
   className?: string;
 }
 export const App: FC<Props> = memo(function App(props = {}) {
+  const [isHomePage, setIsHomePage] = useState(true);
+
+  const handleStartClick = () => {
+    setIsHomePage(false); // Set isHomePage to false when clicked
+    document.body.style.overflow = 'auto';
+  };
+  useEffect(() => {
+    if (isHomePage) {
+      document.body.style.overflow = 'hidden';
+    }
+  }, [isHomePage]);
   return (
     <div className={`${resets.clapyResets} ${classes.root}`}>
-      <IPhone13141 />
+      {isHomePage && <IPhone13141 onClick={handleStartClick} />}
       <IPhone13142 />
       <Page2 />
       <IPhone13146 />
