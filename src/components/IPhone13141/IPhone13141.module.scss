@@ -1,11 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Orienta&display=swap');
 .root {
   position: relative;
   width: 100vw;
   height: 100vh;
+  display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   background-color: #fff;
   overflow: hidden;
+  &__PngtreePurpleEnvelopeLoveEnvel2 {
+     width: 299.1728px;
+    justify-content: center;
+     height: 315.7888px;
+     z-index: 1;
+  }
+  &__arum {
+    color: #4f1e08;
+    font-size: 12px;
+    width: 300px;
+    text-align: center;
+    font-family: "Orienta", sans-serif;
+    z-index: 1;
+  }
+  &__namadiundang{
+    margin-top: 10px;
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: #D9D9D9;
+    color: #4F1E08;
+    text-decoration: none;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+    z-index: 1;
+  }
+  &__arum1 {
+    margin-top: 10px;
+    color: #4f1e08;
+    font-size: 12px;
+    width: 300px;
+    text-align: center;
+    font-family: "Orienta", sans-serif;
+    z-index: 1;
+  }
 }
 
 ._95673652 {
@@ -18,30 +57,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   transform: translate(-50%, -50%);
+  opacity: 0.3;
+  // z-index: -1;
 }
 
-.PngtreePurpleEnvelopeLoveEnvel {
-  transform-origin: top left;
-  position: absolute;
-  left: calc(50% - 59.75px);
-  top: calc(50% - 32.1328px);
-  width: 299.1728px;
-  height: 315.7888px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  transform: matrix(0.9373, -0.3486, 0.3486, 0.9373, 0, 0) translate(-50%, -50%);
-}
 
-.PngtreePurpleEnvelopeLoveEnvel2 {
-  transform-origin: top left;
-  position: absolute;
-  left: calc(50% - -39.8347px);
-  top: calc(50% - 25.4325px);
-  width: 299.1728px;
-  height: 315.7888px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  transform: matrix(0.9373, -0.3486, 0.3486, 0.9373, 0, 0) translate(-50%, -50%);
-}
+

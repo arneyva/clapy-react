@@ -24,18 +24,16 @@ export const IPhone13141: FC<Props> = memo(function IPhone13141(props = {}) {
   return (
     <animated.div className={`${resets.clapyResets} ${classes.root}`} style={fadeAnimation} onClick={handleClick}>
       <div className={`${resets.clapyResets} ${classes.root}`}>
-        {/* <div className={classes._95673652}></div>
-      <div className={classes.PngtreePurpleEnvelopeLoveEnvel}></div>
-      <div className={classes.PngtreePurpleEnvelopeLoveEnvel2}></div> */}
         <div className={classes._95673652}>
           <img src="./assets/_95673652.png" alt="" />
         </div>
-        <div className={classes.PngtreePurpleEnvelopeLoveEnvel}>
-          <img src="./assets/PngtreePurpleEnvelopeLoveEnvel.png" alt="" />
+        <div className={classes.root__PngtreePurpleEnvelopeLoveEnvel2} >
+          <img src="./assets/cekmiring3.png" alt="" />
         </div>
-        <div className={classes.PngtreePurpleEnvelopeLoveEnvel2}>
-          <img src="./assets/PngtreePurpleEnvelopeLoveEnvel.png" alt="" />
-        </div>
+        {/* </div> */}
+        <span className={classes.root__arum}>Kepada Yth Bapak/Saudara(i)</span>
+        <button className={classes.root__namadiundang}>Wijdan Arif </button>
+        <span className={classes.root__arum1}>Mohon Maaf apabila ada kesalahan nama/gelar</span>
       </div>
     </animated.div>
   );
